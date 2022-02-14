@@ -550,3 +550,9 @@ button[type="submit"]:hover{
     pointer-events: none;
   }
 }
+
+@media (max-height: 400px) {
+  .nav-links {
+    height: 150vh;
+  }
+}
