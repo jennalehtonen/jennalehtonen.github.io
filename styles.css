@@ -553,6 +553,6 @@ button[type="submit"]:hover{
 
 @media (max-height: 400px) {
   .nav-links {
-    height: 150vh;
+    height: 400px;
   }
 }
