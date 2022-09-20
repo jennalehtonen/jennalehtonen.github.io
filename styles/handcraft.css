@@ -25,12 +25,16 @@
     }
     .handcraft-image-text p {
         font-size: x-small;
+        padding: 5px;
+    }
+    .handcraft-image-container .handcraft-image-text h5 {
+        font-size: small;
+        margin: 2px;
     }
   }
 
   .handcraft-image-container {
     position: relative;
-
   }
 
   .handcraft-image-text {
