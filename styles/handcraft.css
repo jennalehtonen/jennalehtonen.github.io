@@ -1,0 +1,48 @@
+.handcraft-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+  
+  .handcraft-column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+  
+  .handcraft-column img {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .handcraft-column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .handcraft-image-container {
+    position: relative;
+
+  }
+
+  .handcraft-image-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .handcraft-image-text p {
+    margin-inline: 5px;
+}
+.handcraft-image-text h5 {
+    margin-top: 5px;
+    font-size: large;    
+}
