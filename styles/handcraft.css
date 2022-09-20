@@ -23,6 +23,9 @@
       flex: 100%;
       max-width: 100%;
     }
+    .handcraft-image-text p {
+        font-size: x-small;
+    }
   }
 
   .handcraft-image-container {
