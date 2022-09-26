@@ -53,3 +53,25 @@
     margin-top: 5px;
     font-size: large;    
 }
+
+.handcraft-header {
+  height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/villasukat.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.handcraft-images {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
+.handcraft-images p {
+  padding: 10px 0 20px 0;
+}

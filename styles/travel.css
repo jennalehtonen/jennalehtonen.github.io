@@ -1,16 +1,15 @@
 
-
   .images-row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 4px;
     justify-content: center;
   }
   
   .images-column {
     flex: 30%;
     max-width: 30%;
-    padding: 0 4px;
+    padding: 4px;
   }
   
   .images-column img {
@@ -25,3 +24,34 @@
         max-width: 100%;
       }
   }
+  p {
+    margin-bottom: 20px;
+  }
+
+  .travel-header {
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../images/canaria2.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .travel-loc {
+    font: optional;
+    font-size: 80px;
+    margin-top: 60px;
+  }
+  
+  .travel-images {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    overflow: hidden;
+  }
+  #wrong-reso img {
+    height: 500px;
+  }
+  
+ 
