@@ -144,13 +144,8 @@ nav .fa {
   margin-bottom: 50px;
 }
 
-.images-row {
-  display: flex;
-  width: 100%;
-}
-.images-row img {
-  width: 100%;
-}
+
+
 .image-and-text h3 {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -257,9 +252,6 @@ nav .fa {
 
   /* Content */
   .porttrait {
-    flex-direction: column;
-  }
-  .images-row {
     flex-direction: column;
   }
   .info img {
